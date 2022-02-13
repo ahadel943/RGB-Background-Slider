@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>RGB Background Slider</title>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="container">
+            <div class="red-container">
+                <label for="red">Red</label>
+                <input type="range" class="red-slider" id="red" min="0" max="255" value="255">
+            </div>
+            <div class="green-container">
+                <label for="green">Green</label>
+                <input type="range" class="green-slider" id="green" min="0" max="255" value="255">
+            </div>
+            <div class="blue-container">
+                <label for="blue">Blue</label>
+                <input type="range" class="blue-slider" id="blue" min="0" max="255" value="255">
+            </div>
+            <div class="info">
+                <p class="rgb">RGB (Values)</p>
+                <p class="hex">#000000</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>
